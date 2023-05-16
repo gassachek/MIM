@@ -1,0 +1,187 @@
+/**
+ * Базовые стили для всего сайта
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+
+/**
+ * Другие стили
+ */
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid transparent;
+    border-image: linear-gradient(#02d1ff, #0004ff);
+    border-image-slice: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 350px;
+    height: 100vh;
+    display: flex;
+    background-color: #fff;
+    transition: 0.5s;
+    transform: translateX(-87%);
+}
+
+.header-content {
+    display: block;
+    position: relative;
+}
+
+.header-logo {
+    display: block;
+    position: relative;
+    width: 232px;
+    height: 42px;
+    left: 35px;
+    top: 10px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu__list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.header-menu__icon {
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    transition: 0s;
+    transform: translateX(278px)
+}
+
+.header-menu__list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg, #fbff03, #ff0303);
+    /* color: linear-gradient(#fbff03, #ff0303);
+    background-image: linear-gradient(90deg, #fbff03, #ff0303); */
+    /* #FF8C00; */
+}
+
+.menu-gradient {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(180deg, #02ffff, #0015ff);
+    border-radius: 50%;
+    position: fixed;
+    right: -35px;
+    margin-top: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.menu-btn span,
+.menu-btn span::after {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 15px;
+    height: 2px;
+}
+
+.menu-btn span {
+    content: '';
+    display: block;
+    transform: rotate(30deg);
+    transition: 0.3s;
+    background: linear-gradient(-30deg, #f2ff02, #aaff00);
+}
+
+.menu-btn span::after {
+    content: '';
+    display: block;
+    top: 7px;
+    left: 13px;
+    margin-left: -10px;
+    transition: 0.3s;
+    transform: rotate(-60deg);
+    background: linear-gradient(60deg, #aaff00, #33ff00);
+}
+
+.menu-btn_active span {
+    transform: rotate(-30deg);
+    left: 4px;
+}
+
+.menu-btn_active span::after {
+    transform: rotate(60deg);
+    top: 6px;
+    left: 6px;
+    margin-left: -10px;
+}
+
+.content {
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+}
+
+.content_active {
+    transform: translateX(30%);
+}
+
+.menu_active {
+    transform: translateX(0%);
+}
+
+.icon_active {
+    transform: translateX(-150%);
+}
