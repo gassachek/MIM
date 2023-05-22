@@ -185,3 +185,127 @@ ul {
 .icon_active {
     transform: translateX(-150%);
 }
+
+.main-content {
+    display: block;
+    position: relative;
+    left: 150px;
+    height: 100%;
+}
+
+.page-name {
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+/* .content-menu {
+    display: inline-block;
+    position: relative;
+    top: 12vh;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.content-menu__item {
+    display: inline-flex;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+}
+
+.content-menu__item:hover {
+    border: 1px solid rgb(255, 136, 0);
+} */
+
+.main-content_channels {
+    display: flex;
+    position: relative;
+    top: 15rem;
+    height: 100vh;
+}
+
+.channels_list {
+    display: inline-block;
+    position: relative;
+    height: 100vh;
+    /* display: flex;
+    position: relative;
+    --channel-items-padding: 4rem;
+    --channel_list-width: calc((100% - var(--main-padding) * 2 - var(--main-items-padding) * var(--visible-items-size)) / var(--item-size));
+    display: flex;
+    flex-direction: row; */
+}
+
+.channel_items {
+    display: inline-block;
+    position: relative;
+    flex-direction: row;
+    transform: scale(1);
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+}
+
+.channel_items:hover {
+    transform: scale(1.1);
+    background-color: #fd7a00;
+    z-index: 98;
+    color: #ffffff;
+}
+
+.channel_items__name {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+
+.channel_items__icons {
+    display: inline-block;
+    position: relative;
+    height: 3rem;
+    width: 14rem;
+    left: 20px;
+    top: 3rem;
+}
+
+.channel_items:hover .channel_items__icon {
+    display: none;
+}
+
+.channel_items__icon {
+    display: inline-block;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+}
+
+.channel_items__inf {
+    display: none;
+    position: absolute;
+}
+
+.channel_items:hover .channel_items__inf {
+    display: flex;
+    position: absolute;
+    top: 2.5rem;
+    left: 20px;
+}
