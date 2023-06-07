@@ -291,12 +291,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, blue, rgb(0, 174, 255))
+    background: linear-gradient(to right top, rgb(110, 10, 72), rgb(243, 0, 150))
 }
 
 .channel_items:hover .channel_1kanal {
     transform: scale(1.1);
-    background: #fff;
     opacity: 0.;
     transition: 0.1s;
 }
@@ -309,12 +308,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, blue, red)
+    background: linear-gradient(to right top, rgb(139, 17, 17), rgb(233, 53, 53))
 }
 
 .channel_items:hover .channel_2kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -326,12 +324,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, rgb(255, 174, 0), rgb(255, 217, 0))
+    background: linear-gradient(to right top, rgb(3, 80, 3), rgb(32, 124, 9))
 }
 
 .channel_items:hover .channel_3kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -343,12 +340,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, rgb(59, 192, 25), rgb(30, 255, 0))
+    background: linear-gradient(to right top, rgb(10, 10, 87), blue)
 }
 
 .channel_items:hover .channel_4kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -360,12 +356,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, blue, red)
+    background: linear-gradient(to right top, rgb(4, 4, 83), rgb(0, 26, 255))
 }
 
 .channel_items:hover .channel_5kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -377,12 +372,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, rgb(212, 175, 10), rgb(255, 251, 0))
+    background: linear-gradient(to right top, rgb(11, 116, 148), rgb(4, 194, 252))
 }
 
 .channel_items:hover .channel_6kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -394,12 +388,11 @@ ul {
     width: 25rem;
     height: 13.5rem;
     border: 1px solid black;
-    background: linear-gradient(to right top, blue, rgb(0, 174, 255))
+    background: linear-gradient(to right top, rgb(112, 19, 19), red)
 }
 
 .channel_items:hover .channel_7kanal {
     transform: scale(1.1);
-    background: #fff;
     transition: 0.1s;
 }
 
@@ -425,15 +418,6 @@ ul {
     position: absolute;
     height: 5.5rem;
     width: 5.5rem;
-}
-
-.channel_items:hover .channel_items__icon {
-    display: flex;
-    position: relative;
-    height: 3.5rem;
-    width: 3.5rem;
-    left: 9rem;
-    top: -4rem;
 }
 
 .channel_item__inf {
