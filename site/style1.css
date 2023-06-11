@@ -168,12 +168,6 @@ ul {
     margin-left: -10px;
 }
 
-.content {
-    transition: 0.5s;
-    position: relative;
-    z-index: 0;
-}
-
 .content_active {
     transform: translateX(30%);
 }
