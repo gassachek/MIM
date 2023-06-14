@@ -1,0 +1,270 @@
+/**
+ * Базовые стили для всего сайта
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+
+/**
+ * Другие стили
+ */
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.main-content {
+    display: block;
+    position: relative;
+    left: 150px;
+    height: 100vh;
+    margin-right: 190px;
+}
+
+.main-name {
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.main-content__inf {
+    display: block;
+    position: relative;
+    top: 170px;
+}
+
+.text {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.main-content__medias {
+    display: block;
+    position: relative;
+    top: 15rem;
+}
+
+.medias_list {
+    display: block;
+    position: absolute;
+}
+
+.media-list__items {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    transform: scale(1);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 25rem;
+    height: 13.5rem;
+}
+
+.media-list__items:hover {
+    z-index: 999;
+}
+
+.item-1object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(9, 38, 202), rgb(77, 199, 255))
+}
+
+.media-list__items:hover .item-1object {
+    transform: scale(1.1);
+    background: #fff;
+    opacity: 0.;
+    transition: 0.1s;
+}
+
+.item-2object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, blue, red)
+}
+
+.media-list__items:hover .item-2object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-3object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to top, rgb(255, 166, 0), rgb(255, 251, 0))
+}
+
+.media-list__items:hover .item-3object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-4object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(59, 192, 25), rgb(30, 255, 0))
+}
+
+.media-list__items:hover .item-4object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-5object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, blue, red)
+}
+
+.media-list__items:hover .item-5object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-6object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: rgb(255, 221, 69)
+}
+
+.media-list__items:hover .item-6object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-7object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, blue, rgb(0, 174, 255))
+}
+
+.media-list__items:hover .item-7object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+}
+
+.item-8object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+}
+
+.items__icon_150 {
+    display: flex;
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+    top: -1rem;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 600;
+    color: #000;
+}
+
+.items__icon {
+    display: flex;
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.media-list__items:hover .items__icon {
+    display: flex;
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    left: 9rem;
+    top: -4rem;
+}
+
+.item__inf {
+    display: none;
+    position: absolute;
+}
+
+.media-list__items:hover .item__inf {
+    display: flex;
+    position: absolute;
+    top: -0.1rem;
+    left: 15px;
+    right: 6.8rem;
+}
+
+.main-content-second {
+    display: block;
+    position: relative;
+    top: 20rem;
+}
