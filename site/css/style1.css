@@ -1,0 +1,295 @@
+/**
+ * Базовые стили для всего сайта
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+
+/**
+ * Другие стили
+ */
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.main-content {
+    display: block;
+    position: relative;
+    left: 150px;
+    height: 200vh;
+    flex-wrap: nowrap;
+    margin-right: 150px;
+}
+
+.main-name {
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.heading {
+    position: relative;
+    top: 170px;
+    left: 3rem;
+}
+
+.main-content__inf {
+    display: flex;
+    position: relative;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+    top: 190px;
+    left: 3rem;
+    width: 103rem;
+}
+
+.text {
+    position: relative;
+    font-size: 23px;
+    font-weight: 400;
+    left: 2rem;
+    margin-right: 3rem;
+}
+
+.main-content__medias {
+    display: flex;
+    position: relative;
+    top: 15rem;
+}
+
+.medias_list {
+    display: block;
+    position: relative;
+    flex-basis: calc(50% - 10px);
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+.media-list__items {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    transform: scale(1);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 25rem;
+    height: 13.5rem;
+}
+
+.media-list__items:hover {
+    z-index: 999;
+}
+
+.item-1object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(110, 10, 72), rgb(243, 0, 150))
+}
+
+.media-list__items:hover .item-1object {
+    transform: scale(1.1);
+    background: #fff;
+    opacity: 0.;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-2object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(139, 17, 17), rgb(233, 53, 53))
+}
+
+.media-list__items:hover .item-2object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-3object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(28, 80, 15), rgb(102, 255, 0))
+}
+
+.media-list__items:hover .item-3object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-4object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(9, 38, 202), rgb(77, 199, 255))
+}
+
+.media-list__items:hover .item-4object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-5object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(9, 9, 156), rgb(0, 153, 255))
+}
+
+.media-list__items:hover .item-5object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-6object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(4, 194, 252), rgb(4, 194, 252))
+}
+
+.media-list__items:hover .item-6object {
+    transform: scale(1.1);
+    background: #fff;
+    transition: 0.1s;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+}
+
+.item-7object {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 13.5rem;
+    border: 1px solid black;
+    background: linear-gradient(to right top, rgb(112, 19, 19), red)
+}
+
+.media-list__items:hover .item-7object {
+    transform: scale(1.1);
+    background: #fff;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1;
+    transition: 0.1s;
+}
+
+.items__icon {
+    display: flex;
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.heading2 {
+    position: relative;
+    top: 20rem;
+    left: 3rem;
+}
+
+.main-content-second {
+    display: flex;
+    position: relative;
+    top: 20rem;
+    flex-wrap: wrap;
+}
+
+.content-second__blocks {
+    display: block;
+    margin: 40px;
+    align-items: center;
+    height: auto;
+    width: 550px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right top, red, yellow, red);
+    border-image-slice: 1
+}
+
+@media (min-width: 100px) and (max-width: 1240px) {
+    .main-content {
+        margin-right: 0;
+    }
+    .text {
+        font-size: 18px;
+        font-weight: 300;
+        left: 1rem;
+        margin-right: 2rem;
+    }
+    .content-second__blocks {
+        width: calc(65% - 100px);
+    }
+    .main-content__inf {
+        width: 51rem;
+    }
+}
