@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Отправлено</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Телевидение</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/brand.png') }}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class='header-menu'>
+            <a class="logo-link">
+                <img class='icon' src="{{ url_for('static', filename='images/бренд-восстановлено.png') }}" alt="">
+            </a>
+            <a class='header-menu--btn'>
+                <img src="{{ url_for('static', filename='images/btn.png') }}" alt="">
+                <span></span>
+            </a>
+            <nav>
+                <ul class='header-menu-list'>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href="{{ url_for('tv') }}">
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/TV.png') }}" alt=''> Телевидение
+                        </a>
+                    </li>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href="{{ url_for('mobile') }}">
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/mobile.png') }}" alt=''>Мобильная связь
+                        </a>
+                    </li>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href='#'>
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/service.png') }}" alt=''>Компьютерный сервис
+                        </a>
+                    </li>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href='#'>
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/cache.png') }}" alt=''>Денежные переводы
+                        </a>
+                    </li>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href='#'>
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/docs.png') }}" alt=''>Документы
+                        </a>
+                    </li>
+                    <li class='menu-list-item'>
+                        <a class='menu-list--link' href="{{ url_for('show_contacts') }}">
+                            <img class='header-menu-list__icon' src="{{ url_for('static', filename='images/contacts.png') }}" alt=''>Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Сообщение успешно отправлено!</h1>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
