@@ -47,7 +47,7 @@ def submit_contacts():
             # Создаем соединение с SMTP-сервером
             smtp_server = smtplib.SMTP('smtp.mail.ru', 587)
             smtp_server.starttls()
-            smtp_server.login('gmansurov18@mail.ru', 'ruD6Eqeu72PtrRz5CyCP')
+            smtp_server.login('gmansurov18@mail.ru', '***')
 
             # Отправляем сообщение
             smtp_server.sendmail('gmansurov18@mail.ru', recipient_email, email_message)
